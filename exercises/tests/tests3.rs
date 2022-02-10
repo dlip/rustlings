@@ -19,6 +19,6 @@ mod tests {
 
     #[test]
     fn is_false_when_odd() {
-        assert_eq!(is_even(7), false);
+        assert!(!is_even(7));
     }
 }
